@@ -1,0 +1,25 @@
+# Normalize all text files to LF on commit (Linux default).
+* text=auto eol=lf
+
+# Explicit text types (always LF in repo) ────────────
+*.md    text eol=lf
+*.txt   text eol=lf
+*.py    text eol=lf
+*.c     text eol=lf
+*.h     text eol=lf
+*.sh    text eol=lf
+*.html  text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+
+# Binary files (never touch line endings / no diff) ───
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.pdf   binary
+*.zip   binary
+*.exe   binary
+*.dll   binary
+*.bin   binary
